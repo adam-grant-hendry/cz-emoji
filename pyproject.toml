@@ -11,10 +11,15 @@ classifiers = [
     "Programming Language :: Python :: 3.8"
 ]
 readme = "README.md"
-repository = "hhttps://github.com/adam-grant-hendry/cz-emoji"
+repository = "https://github.com/adam-grant-hendry/cz-emoji"
+
+[tool.commitizen]
+name = "cz_emoji"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+commitizen = "^2.27.0"
+emoji = "^1.7.0"
 
 [tool.poetry.dev-dependencies]
 
