@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cz-emoji"
+version = "0.1.0"
+description = "A `commitizen` plugin like `commitizen-emoji`, but more consistent with the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) spec and addition of custom emojis in messages."
+authors = ["Hendry, Adam <adam.hendry@medtronic.com>"]
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8"
+]
+readme = "README.md"
+repository = "hhttps://github.com/adam-grant-hendry/cz-emoji"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.13.0"]
+build-backend = "poetry.core.masonry.api"
